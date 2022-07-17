@@ -9,7 +9,7 @@ const Project = () => {
             <h1>Project</h1>
             
             <Grid justify='center' >
-                <Grid.Col span={4}> 
+                <Grid.Col md={4}> 
                     <Stack spacing="lg">             
                         <div style={{ width: 340, margin: 'auto' }}>
                             <Card shadow="sm" p="lg">
@@ -68,7 +68,7 @@ const Project = () => {
                     </Stack>
                 </Grid.Col>
 
-                <Grid.Col span={4}>
+                <Grid.Col md={4}>
                     <Stack spacing="lg">
                         <div style={{ width: 340, margin: 'auto' }}>
                             <Card shadow="sm" p="lg">

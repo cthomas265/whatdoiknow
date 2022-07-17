@@ -5,8 +5,7 @@ import './Components.css'
 
 const Navbar = () => {
     return (
-        <div>   
-            <h1>Navbar</h1>
+        <div justify-contect='space-between'>   
             <a href='/About'>About</a>
             <a href='/Project'>Project</a>
             <a href='/Contact'>Contact</a>
