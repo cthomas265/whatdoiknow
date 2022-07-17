@@ -1,4 +1,4 @@
-
+/* 
 
 * {
     box-sizing: content-box;
@@ -71,9 +71,9 @@ header nav ul li :hover {
 }
 
 /* hero/about */
-.hero {
+/* .hero {
     /*background-image: url('./coding.jpg');*/
-    background-size: cover;
+ /*   background-size: cover;
     background-position: center;
     height: 600px;
 }
@@ -123,9 +123,18 @@ p {
     }
 
 /* explore  */
-.explore h2 {
+/*.explore h2 {
     display: block;
     text-align: center;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 80px;
+    padding: 20px 20px 0 50px;
 }
 
 
@@ -141,10 +150,11 @@ article div {
     font-size: 35px;
     border: 5 solid black;
     border-radius: 0 15px;
-}
+}*/
 
 
 /* contact me */
+/*
 #contact {
     display: flex;
     justify-content: space-between;
@@ -184,7 +194,7 @@ footer {
 }
 
   /* UTILITIES */
-  .text-left {
+/*  .text-left {
     text-align: left;
   }
   
@@ -197,7 +207,7 @@ footer {
   }
   
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 
     .about-text {
         flex-direction: column;
@@ -223,4 +233,4 @@ footer {
     .coming-soon {
         display: none;
     }
-}
+} */ 
