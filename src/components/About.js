@@ -1,12 +1,19 @@
+import React from "react";
+import './Components.css'
 
 
 
 const About = () => {
     return (
-        <div>   
-            <h1>About</h1>
+        <section>   
+            <h1>Welcome to my Portfolio!</h1>
+            <div>
+                <p>
+                My name is Carrie, let me take you through my journey.
+                </p>
+            </div>
     
-        </div>
+        </section>
     )
 }
 

@@ -4,8 +4,9 @@ import Navbar from './Navbar'
 const Header = () => {
     return (
         <div>   
-            <h1>Header</h1>
+            <h1>CTHOMAS265</h1>
             <Navbar />
+
         </div>
     )
 }

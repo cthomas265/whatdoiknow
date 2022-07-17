@@ -1,3 +1,5 @@
+import React from 'react';
+import './Components.css'
 
 
 
@@ -8,6 +10,7 @@ const Navbar = () => {
             <a href='/About'>About</a>
             <a href='/Project'>Project</a>
             <a href='/Contact'>Contact</a>
+            <a href='/Resume'>Resume</a>
         </div>
     )
 }
