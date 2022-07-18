@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Stack, Card, Image, Text, Badge, Button, Group, useMantineTheme } from '@mantine/core';
 
+
 const Project = () => {
     const theme = useMantineTheme();
 

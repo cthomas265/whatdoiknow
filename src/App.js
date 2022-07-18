@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 // import './App.css';
-import './/App.css';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
+import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Project from './components/project/Project';
+import Project from './components/Project';
 import { MantineProvider } from '@mantine/core';
 
 function App() {
@@ -17,13 +17,7 @@ function App() {
       withNormalizeCSS
       theme={{
         // Theme is deeply merged with default theme
-        colorScheme: 'dark',
-        colors: {
-          // Add your color
-          'deep-blue': ['#E9EDFC', '#C1CCF6', '#99ABF0' /* ... */],
-          // or replace default theme color
-          blue: ['#E9EDFC', '#C1CCF6', '#99ABF0' /* ... */],
-        },
+ 
 
         shadows: {
           // other shadows (xs, sm, lg) will be merged from default theme
@@ -36,18 +30,18 @@ function App() {
           sizes: {
             h1: { fontSize: 35},
             div: { fontSize: 40 },
+
           },
         },
       }}
     >
-      <div className="App">
+      <div classNameName="App">
         <Header />
         <BrowserRouter>
         <Routes>  
           <Route path='/About' element={<About/>}/> 
           <Route path='/Project' element={<Project/>}/>
           <Route path='/Contact' element={<Contact/>}/>
-          <Route path='/' element={<About/>}/> 
         </Routes>
         </BrowserRouter>
         <Footer /> 

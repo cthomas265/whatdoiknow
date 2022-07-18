@@ -1,6 +1,6 @@
 import { TextInput, Button, Group, Box, Textarea } from '@mantine/core';
 import { useForm } from '@mantine/form';
-import { useState} from 'react';
+import React, { useState} from 'react';
 
 const Contact = () => {
     
