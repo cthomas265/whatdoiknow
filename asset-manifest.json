@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/whatdoiknow/static/css/main.abe5c971.css",
+    "main.js": "/whatdoiknow/static/js/main.34011b3f.js",
+    "static/js/787.de6a5952.chunk.js": "/whatdoiknow/static/js/787.de6a5952.chunk.js",
+    "static/media/Resume.docx": "/whatdoiknow/static/media/Resume.7478f56b6277171a5c36.docx",
+    "index.html": "/whatdoiknow/index.html",
+    "main.abe5c971.css.map": "/whatdoiknow/static/css/main.abe5c971.css.map",
+    "main.34011b3f.js.map": "/whatdoiknow/static/js/main.34011b3f.js.map",
+    "787.de6a5952.chunk.js.map": "/whatdoiknow/static/js/787.de6a5952.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abe5c971.css",
+    "static/js/main.34011b3f.js"
+  ]
+}
