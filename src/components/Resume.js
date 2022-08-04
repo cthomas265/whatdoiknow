@@ -5,7 +5,7 @@ import resume from '../Resume.docx';
 const Resume = () => {
     return (
         
-        <div className="center">
+        <div className="resume">
                 <ul className='icons'>
                     <i className="devicon-html5-plain"></i>
                     <i className="devicon-css3-plain-wordmark"></i>

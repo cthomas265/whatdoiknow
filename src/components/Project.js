@@ -91,6 +91,8 @@ const Project = () => {
                                 </Button>
                             </Card>
                         </div>
+
+                        
             
                         <div style={{ width: 340, margin: 'auto' }}>
                             <Card shadow="sm" p="lg">
@@ -116,7 +118,7 @@ const Project = () => {
                         <div style={{ width: 340, margin: 'auto' }}>
                             <Card shadow="sm" p="lg">
                                 <Card.Section>
-                                <iframe src="https://giphy.com/embed/Az1CJ2MEjmsp2" title="Tumbleweed rolling"/>
+                                <Image src="./bananas" title="yearbook"/>
                                 </Card.Section>
             
                                 <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
@@ -127,8 +129,8 @@ const Project = () => {
                                 </Group>
             
                                 <Button variant="light" color="blue" fullWidth style={{ marginTop: 14 }}>
-                                <a  href="https://github.com/cthomas265/Reading-Raindbow">
-                                    Coming soon!
+                                <a  href="https://wrapped-in-bananas.herokuapp.com/">
+                                    Final Project
                                 </a>
                                 </Button>
                             </Card>

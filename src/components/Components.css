@@ -35,6 +35,10 @@ h1 {
     font-weight: bold;
 }
 
+.resume {
+    position: relative;
+}
+
 .footer {
     text-align: center;
     color: rgba(244, 162, 97);
