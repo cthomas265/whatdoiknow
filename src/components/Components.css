@@ -8,7 +8,14 @@
 body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      #2a9d8f 0%,
+      #2a9d8f 20%,
+      #E9C46A 20%,
+      #E9C46A 100%
+      )
 }
 
 .about{
@@ -47,4 +54,8 @@ h1 {
     position: fixed;
     width: 100%;
     margin-top: auto;
+}
+
+i {
+    margin: 10px
 }

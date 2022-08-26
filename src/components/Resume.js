@@ -7,7 +7,7 @@ const Resume = () => {
         
         <div className="resume">
                 <ul className='icons'>
-                    <i className="devicon-html5-plain"></i>
+                    <i className="devicon-html5-plain "></i>
                     <i className="devicon-css3-plain-wordmark"></i>
                     <i className="devicon-github-original-wordmark colored"></i>
                     <i className="devicon-javascript-plain"></i>
